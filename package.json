@@ -1,0 +1,19 @@
+{
+  "name": "softhouse",
+  "version": "1.0.0",
+  "description": "knowledge assesment web app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiman90/Softhouse.git"
+  },
+  "author": "Rejhan Hrnjic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caiman90/Softhouse/issues"
+  },
+  "homepage": "https://github.com/caiman90/Softhouse#readme"
+}
