@@ -1,0 +1,18 @@
+{
+  "name": "softhouse",
+  "description": "knowledge assesment web app",
+  "main": "app.js",
+  "authors": [
+    "Rejhan Hrnjic"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/caiman90/Softhouse",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
