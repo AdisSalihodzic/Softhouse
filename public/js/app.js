@@ -8,7 +8,10 @@ softhouseWebApp.config(function($routeProvider,$locationProvider){
         .when('/login', {
             templateUrl: 'views/login.html'
         })
-            .otherwise({
+        .when('/profile', {
+            templateUrl: 'views/profile.html'
+        })
+        .otherwise({
             redirectTo: '/home'
         });
     $locationProvider.html5Mode(true).hashPrefix('!');
