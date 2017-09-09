@@ -1,1 +1,54 @@
-<h1>PROFILE SECTION</h1>
+<div class="container" ng-controller="ProfileCtrl">
+    <div class="col-sm-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">User Information</div>
+            <div class="panel-body">
+                <div class="row"><span class="col-sm-2">Email:</span><span class="col-sm-3">{{currentUser.facebook.email}}</span>    </div>
+                <div class="row"><span class="col-sm-2">Gender:</span><span class="col-sm-3">{{currentUser.facebook.gender}}</span>    </div>
+                <div class="row"><span class="col-sm-2">Birthday:</span><span class="col-sm-3">{{currentUser.facebook.birthday}}</span>    </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">User Friends</div>
+            <div class="panel-body">
+                <div  ng-repeat="friend in friends">
+                    <a>{{friend.name}}</a>
+                </div></div>
+            <button ng-click="saveChangesToFile()">Save changes to file</button>
+
+        </div>
+
+    </div><!--/left-->
+    <div  class="col-sm-8">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-md-1">
+                        <img src="{{currentUser.facebook.photos[0].value}}">
+                    </div>
+                    <div class="col-md-5">
+                        <a href="{{currentUser.facebook.profileUrl}}">{{currentUser.facebook.name}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <div ng-repeat="fed in feed">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <span>{{fed.message}}</span>
+                            </div>
+                            <div class="col-md-6">
+                                <span>{{parseDate(fed.created_time)}}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-body">{{fed.story}}</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

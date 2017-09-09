@@ -1,0 +1,12 @@
+{
+  "languages":{
+    "en":"English",
+    "bs":"Bosnian",
+    "tr":"Turkish"
+  },
+  "select_language":"Language",
+  "login":"Login",
+  "logout":"Logout",
+  "profile":"Profile",
+  "signup":"Register"
+}

@@ -1,0 +1,12 @@
+{
+  "languages":{
+    "en":"Ingilizce",
+    "bs":"Bosnakca",
+    "tr":"Turkce"
+  },
+  "select_language":"Dil",
+  "login":"Iceri Gir",
+  "logout":"Cikmak",
+  "profile":"Profil",
+  "signup":"Register"
+}

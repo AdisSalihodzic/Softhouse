@@ -1,0 +1,12 @@
+{
+  "languages":{
+    "en":"Engleski",
+    "bs":"Bosanski",
+    "tr":"Turski"
+  },
+  "select_language":"Jezik",
+  "login":"Prijava",
+  "logout":"Odjava",
+  "profile":"Profil",
+  "signup":"Registruj se"
+}
