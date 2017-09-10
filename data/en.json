@@ -22,7 +22,7 @@
   "profile":"Profile",
   "signup":"Register",
   "create_account": "Create an Account",
-  "delete_feed":"Delete feed"
-
-
+  "delete_feed":"Delete feed",
+  "welcome_message":"Welcome to Softhouse web application",
+  "short_description":"Small localized web application with Facebook and local login.Following technologies are beeing used:"
 }

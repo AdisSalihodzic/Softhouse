@@ -49,6 +49,12 @@ then run the server with
 
     node app
 
+Here are fake facebook accounts for logging with facebook :
+   Name                               EMAIL                             PASSWORD
+1. Sharon Albahdcgabgcj Warmansky  -  eftlscerfz_1504720249@tfbnw.net - sawsaw
+2. Ruth Albaiijfccdah Chengberg	   -  euegvdfibz_1504720251@tfbnw.net - racrac
+
+
 <h3>Have fun!</h3>
 
 If you have any questions, feel free to leave a comment and I will try to help if I can!

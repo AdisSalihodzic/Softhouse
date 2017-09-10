@@ -22,6 +22,8 @@
   "profile":"Profil",
   "signup":"Registruj se",
   "create_account": "Kreiraj korisnika",
-  "delete_feed":"Obrisi objavu"
+  "delete_feed":"Obrisi objavu",
+  "welcome_message":"Dobro dosli na softhouse web aplikaciju",
+  "short_description":"Mala lokalizovana web aplikacija sa Facebook i lokalnom prijavom.Za razvoj sam koristio sljedece tehnologije:"
 
 }

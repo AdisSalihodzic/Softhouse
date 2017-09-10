@@ -22,7 +22,7 @@
   "profile":"Profil",
   "signup":"Register",
   "create_account": "User yap",
-  "delete_feed":"Sil okumasi"
-
-
+  "delete_feed":"Sil okumasi",
+  "welcome_message":"Hos Geldiniz Softhouse web application",
+  "short_description":"Kucuk web application with Facebook and local giris.Bu technology development icin kullandim:"
 }
