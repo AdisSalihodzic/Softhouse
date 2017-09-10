@@ -14,9 +14,20 @@ Node.js   -  [https://nodejs.org/en/]
 Mongodb   -  [https://www.mongodb.com/]
 ```
 
-### Installing
+### Application information
 
-<h3>Instructions</h3>
+Following technologies are used in web application:
+
+<ul>
+<li>AngularJS(translate,moment)</li>
+<li>Javascript</li>
+<li>html,css,bootstrap</li>
+
+<li>NodeJS(express,passport,passport-facebook,file-system,dotenv...</li>
+<li>MongoDB</li>
+</ul>
+
+### Installing
 
 Simply clone this repo using
 
@@ -34,6 +45,9 @@ then make sure MongoDB is running with
 
     mongod
 
+then run the server with
+
+    node app
 
 <h3>Have fun!</h3>
 
@@ -49,8 +63,3 @@ If you have any questions, feel free to leave a comment and I will try to help i
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
