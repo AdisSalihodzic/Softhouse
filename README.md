@@ -16,9 +16,28 @@ Mongodb   -  [https://www.mongodb.com/]
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+<h3>Instructions</h3>
 
-Say what the step will be
+Simply clone this repo using
+
+    git clone git@github.com:michaelcheng429/meanstacktutorial.git
+
+then install the Node modules with
+
+    npm install
+
+then install the bower components with
+
+    bower install
+
+then make sure MongoDB is running with
+
+    mongod
+
+
+<h3>Have fun!</h3>
+
+If you have any questions, feel free to leave a comment and I will try to help if I can!
 
 
 ## Authors
