@@ -4,11 +4,10 @@ Small web application with Facebook and local login
 
 ## Getting Started
 
-getting started
-
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Following things needs to be installed on your local machine so you could run the web application
 
 ```
 Node.js   -  [https://nodejs.org/en/]
