@@ -9,7 +9,8 @@
                     <input type="text" class="form-control" placeholder=" {{ 'user.first_name' | translate }}" required autofocus ng-model="user.first_name">
                     <input type="text" class="form-control" placeholder=" {{ 'user.last_name' | translate }}" required autofocus ng-model="user.last_name">
                     <input type="text" class="form-control" placeholder=" {{ 'user.username' | translate }}" required autofocus ng-model="user.username">
-                    <input type="password2" class="form-control" placeholder=" {{ 'user.password' | translate }}" required ng-model="user.password2">
+                    <input type="text" class="form-control" placeholder=" {{ 'user.email' | translate }}" required autofocus ng-model="user.email">
+                    <input type="password" class="form-control" placeholder=" {{ 'user.password' | translate }}" required ng-model="user.password2">
                     <input type="password" class="form-control" placeholder=" {{ 'user.password' | translate }}" required ng-model="user.password">
                     <button class="btn btn-lg btn-primary btn-block" ng-click="signup(user)" translate="signup"></button>
                 </form>

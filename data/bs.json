@@ -10,13 +10,18 @@
     "gender":"Spol",
     "username":"Korisnicko ime",
     "password":"Sifra",
-    "email":"Email"
+    "email":"Email",
+    "information":"Korisnicki info",
+    "friends":"Korisnikovi prijatelji",
+    "birthday":"Datum rodjenja"
+
   },
   "select_language":"Jezik",
   "login":"Prijava",
   "logout":"Odjava",
   "profile":"Profil",
   "signup":"Registruj se",
-  "create_account": "Kreiraj korisnika"
+  "create_account": "Kreiraj korisnika",
+  "delete_feed":"Obrisi objavu"
 
 }

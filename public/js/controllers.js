@@ -32,11 +32,15 @@ softhouseWebApp.controller("ProfileCtrl",function($rootScope,$scope,$http, $root
     };
 
     $scope.saveChangesToFile = function() {
-        $http.post('/writeToFile',  JSON.stringify($scope.friends))
+        $http.post('/writeToFile', $scope.feed)
             .success(function(response) {
-                console.log("Uspijesno Spremljen File");
+                console.log("The file was saved successfully");
             });
-    }
+    };
+    $scope.deleteFeed = function(index){
+        $scope.feed.splice( index, 1 );
+        $scope.saveChangesToFile();
+    };
 });
 
 softhouseWebApp.controller("SignUpCtrl", function($scope, $http, $rootScope, $location) {

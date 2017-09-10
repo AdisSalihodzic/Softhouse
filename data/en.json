@@ -10,13 +10,19 @@
     "gender":"Gender",
     "username":"Username",
     "password":"Password",
-    "email":"Email"
+    "email":"Email",
+    "information":"User info",
+    "friends":"User friends",
+    "birthday":"Birthday"
+
   },
   "select_language":"Language",
   "login":"Login",
   "logout":"Logout",
   "profile":"Profile",
   "signup":"Register",
-  "create_account": "Create an Account"
+  "create_account": "Create an Account",
+  "delete_feed":"Delete feed"
+
 
 }

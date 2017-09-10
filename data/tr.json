@@ -10,7 +10,10 @@
     "gender":"Cins",
     "username":"Kullanıcı adı",
     "password":"Sifre",
-    "email":"Email"
+    "email":"Email",
+    "information":"Kullanci info",
+    "friends":"Kullanci arkadaslar",
+    "birthday":"Dogum gunu"
 
   },
   "select_language":"Dil",
@@ -18,6 +21,8 @@
   "logout":"Cikmak",
   "profile":"Profil",
   "signup":"Register",
-  "create_account": "User yap"
+  "create_account": "User yap",
+  "delete_feed":"Sil okumasi"
+
 
 }

@@ -5,12 +5,13 @@ var session = require("express-session");
 var dotenv = require('dotenv');
 
 var app = express();
+
 dotenv.load();
 
-app.use(express.static(__dirname+"/public"));
 app.use('/bower_components',  express.static(__dirname + '/bower_components'));
 app.use('/data',  express.static(__dirname + '/data'));
-app.use('/public',  express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public'));
+app.use('/public',express.static(__dirname + '/public'));
 
 require("./config/passport")(passport); // passing passport for configuration
 
