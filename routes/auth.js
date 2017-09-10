@@ -55,7 +55,6 @@ module.exports = function(app,passport){
         passport.authenticate ('facebook'));
 
     app.get('/auth/facebook/callback', function (req, res, next) {
-        console.log("Response is From facebook:"+res.profile);
         var authenticator = passport.authenticate ('facebook', {
             successRedirect: req.session.returnTo,
             failureRedirect: '/'
