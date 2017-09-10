@@ -11,8 +11,8 @@ getting started
 What things you need to install the software and how to install them
 
 ```
-Node.js
-Mongodb
+Node.js   -  [https://nodejs.org/en/]
+Mongodb   -  [https://www.mongodb.com/]
 ```
 
 ### Installing
