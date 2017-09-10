@@ -4,9 +4,19 @@
     "bs":"Bosnian",
     "tr":"Turkish"
   },
+  "user":{
+    "first_name":"First name",
+    "last_name":"Last name",
+    "gender":"Gender",
+    "username":"Username",
+    "password":"Password",
+    "email":"Email"
+  },
   "select_language":"Language",
   "login":"Login",
   "logout":"Logout",
   "profile":"Profile",
-  "signup":"Register"
+  "signup":"Register",
+  "create_account": "Create an Account"
+
 }

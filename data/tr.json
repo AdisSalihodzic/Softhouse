@@ -4,9 +4,20 @@
     "bs":"Bosnakca",
     "tr":"Turkce"
   },
+  "user":{
+    "first_name":"Adi",
+    "last_name":"Soyadi",
+    "gender":"Cins",
+    "username":"Kullanıcı adı",
+    "password":"Sifre",
+    "email":"Email"
+
+  },
   "select_language":"Dil",
   "login":"Iceri Gir",
   "logout":"Cikmak",
   "profile":"Profil",
-  "signup":"Register"
+  "signup":"Register",
+  "create_account": "User yap"
+
 }

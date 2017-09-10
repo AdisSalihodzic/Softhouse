@@ -1,6 +1,6 @@
 var softhouseWebApp = angular.module("SofthouseWebApp",["ngRoute","pascalprecht.translate","angularMoment"]);
 
-softhouseWebApp.config(["$routeProvider","$translateProvider",function($routeProvider,$translateProvider){
+softhouseWebApp.config(["$routeProvider","$translateProvider","$locationProvider",function($routeProvider,$translateProvider,$locationProvider){
     $routeProvider
         .when('/home', {
             templateUrl: 'views/home.html',
@@ -33,7 +33,7 @@ softhouseWebApp.config(["$routeProvider","$translateProvider",function($routePro
         suffix:".json"
     });
     $translateProvider.useSanitizeValueStrategy(null);
-    //$locationProvider.html5Mode(true).hashPrefix('!');
+   // $locationProvider.html5Mode(true).hashPrefix('!');
 
 }]);
 
