@@ -31,7 +31,7 @@ Following technologies are used in web application:
 
 Simply clone this repo using
 
-    git clone git@github.com:michaelcheng429/meanstacktutorial.git
+    git clone https://github.com/caiman90/Softhouse.git
 
 then install the Node modules with
 
