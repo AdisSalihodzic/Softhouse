@@ -1,6 +1,6 @@
 # Softhouse web application
 
-Small web application with Facebook and local login
+Small localized web application with Facebook and local login
 
 ## Getting Started
 
@@ -21,9 +21,9 @@ Following technologies are used in web application:
 <ul>
 <li>AngularJS(translate,moment)</li>
 <li>Javascript</li>
-<li>html,css,bootstrap</li>
+<li>HTML,CSS,bootstrap</li>
 
-<li>NodeJS(express,passport,passport-facebook,file-system,dotenv...</li>
+<li>NodeJS (express,passport,passport-facebook,file-system,dotenv...)</li>
 <li>MongoDB</li>
 </ul>
 
